@@ -14,12 +14,12 @@ Interactive R Shiny application mapping the prevalence of fungal stem pathogens 
 
 ## Built with
 
-R · Shiny · leaflet · plotly · dplyr · sf · scales
+R · Shiny · leaflet · sf · dplyr · readr · ggplot2 · ggrepel
 
 ## Running locally
 
 ```r
-install.packages(c("shiny", "leaflet", "plotly", "dplyr", "sf", "scales"))
+install.packages(c("shiny", "leaflet", "sf", "dplyr", "readr", "ggplot2", "ggrepel"))
 shiny::runApp("app.R")
 ```
 
